@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "64b17479212ae18ba66cde83"
+  },
+  "shippingInfo": {
+    "name": "đặng tiến hưng",
+    "address": "dị sử - mỹ thành - mỹ lộc - nam định",
+    "city": "nam định",
+    "phone": 946937769
+  },
+  "totalPrice": 131000,
+  "status": "pending",
+  "productsOrder": [
+    {
+      "productId": {
+        "$oid": "64ae77ec879884713bce1cb5"
+      },
+      "quantity": 3,
+      "price": 25000,
+      "topping": [
+        {
+          "$oid": "64a3d373427c082d64b4e64a"
+        },
+        {
+          "$oid": "64b154c16a6e68efb4e92a12"
+        }
+      ],
+      "_id": {
+        "$oid": "64b17479212ae18ba66cde84"
+      }
+    }
+  ],
+  "user": {
+    "$oid": "64a42af49874952a04761729"
+  },
+  "paymentMethod": null,
+  "createdAt": {
+    "$date": "2023-07-14T16:14:49.630Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-14T16:14:49.630Z"
+  }
+}]

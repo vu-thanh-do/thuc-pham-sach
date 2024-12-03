@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "6539376a1ebfe330733d7c69"
+  },
+  "name": "Trà Sữa",
+  "products": [
+    {
+      "$oid": "653939511ebfe330733d7ccc"
+    },
+    {
+      "$oid": "65393c58c9f403e70237c0ae"
+    },
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    },
+    {
+      "$oid": "653938af1ebfe330733d7caa"
+    }
+  ],
+  "is_deleted": true,
+  "createdAt": {
+    "$date": "2023-10-25T15:42:34.197Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-17T17:35:00.705Z"
+  }
+},{
+  "_id": {
+    "$oid": "653937711ebfe330733d7c6d"
+  },
+  "name": "Fresh Fruit Tea",
+  "products": [
+    {
+      "$oid": "657d5307fde7defde3122379"
+    },
+    {
+      "$oid": "6539453beb12d80a743cd162"
+    },
+    {
+      "$oid": "657d528ffde7defde3122328"
+    },
+    {
+      "$oid": "657d5fd2d439172d525a562b"
+    },
+    {
+      "$oid": "65807f0444176eadbe1086be"
+    },
+    {
+      "$oid": "657d5397fde7defde31223cf"
+    }
+  ],
+  "is_deleted": false,
+  "createdAt": {
+    "$date": "2023-10-25T15:42:41.196Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T15:15:19.157Z"
+  }
+},{
+  "_id": {
+    "$oid": "653937781ebfe330733d7c71"
+  },
+  "name": "Macchiato Cream Cheese",
+  "products": [
+    {
+      "$oid": "65393eb0c9f403e70237c1b6"
+    },
+    {
+      "$oid": "6539402ac9f403e70237c32b"
+    },
+    {
+      "$oid": "65393fb5c9f403e70237c2d4"
+    },
+    {
+      "$oid": "6571dd258f07589ca8768287"
+    },
+    {
+      "$oid": "657d5efbd439172d525a545b"
+    }
+  ],
+  "is_deleted": false,
+  "createdAt": {
+    "$date": "2023-10-25T15:42:48.816Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:38:55.311Z"
+  }
+},{
+  "_id": {
+    "$oid": "6539377f1ebfe330733d7c75"
+  },
+  "name": "Sữa Chua Dẻo",
+  "products": [
+    {
+      "$oid": "653e8a7b5288babc1caed3cb"
+    },
+    {
+      "$oid": "653944b5eb12d80a743cd126"
+    },
+    {
+      "$oid": "65394400eb12d80a743cd105"
+    },
+    {
+      "$oid": "657f324897befed43e5dbea5"
+    }
+  ],
+  "is_deleted": false,
+  "createdAt": {
+    "$date": "2023-10-25T15:42:55.340Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:45:56.406Z"
+  }
+},{
+  "_id": {
+    "$oid": "653f2d8f472535938d1cda75"
+  },
+  "name": "ahii ahiii",
+  "products": [],
+  "is_deleted": true,
+  "createdAt": {
+    "$date": "2023-10-30T04:14:07.878Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-11T19:04:26.799Z"
+  }
+},{
+  "_id": {
+    "$oid": "654605183e57615e60bc2cd3"
+  },
+  "name": "test",
+  "products": [],
+  "is_deleted": true,
+  "createdAt": {
+    "$date": "2023-11-04T08:47:20.469Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T09:07:32.193Z"
+  }
+},{
+  "_id": {
+    "$oid": "654605233e57615e60bc2ce7"
+  },
+  "name": "rrrr",
+  "products": [],
+  "is_deleted": true,
+  "createdAt": {
+    "$date": "2023-11-04T08:47:31.242Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-13T23:31:57.251Z"
+  }
+},{
+  "_id": {
+    "$oid": "656beed9f2f3ae96e688ddfc"
+  },
+  "name": "Khác",
+  "products": [],
+  "is_deleted": false,
+  "createdAt": {
+    "$date": "2023-12-03T02:58:33.219Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-03T02:58:33.219Z"
+  }
+}]
