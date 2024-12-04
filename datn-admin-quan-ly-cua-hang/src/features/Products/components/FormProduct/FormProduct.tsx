@@ -63,25 +63,25 @@ const FormProduct = () => {
     if (values.sale === undefined) {
       values.sale = 0
     }
-    if (values.sizeDefault === undefined && values.size.length === 0) {
-      message.error('Phải có ít nhất 1 size')
-      return
-    }
+    // if (values.sizeDefault === undefined && values.size.length === 0) {
+    //   message.error('Phải có ít nhất 1 size')
+    //   return
+    // }
     /* kiểm tra xem sale có cao hơn giá size không */
-    if (values.size !== undefined) {
-      for (const sizeItem of values.size) {
-        if (sizeItem.price < values.sale) {
-          message.error('Giá sale không được cao hơn giá size')
-          return
-        }
-      }
-    }
+    // if (values.size !== undefined) {
+    //   for (const sizeItem of values.size) {
+    //     if (sizeItem.price < values.sale) {
+    //       message.error('Giá sale không được cao hơn giá size')
+    //       return
+    //     }
+    //   }
+    // }
 
     if (productId && productEdit) {
       const data = {
         ...values,
-        images: images.length > 0 ? images : productEdit.images,
-        size: values.size.map((size: any) => ({ name: size.name, price: Number(size.price), _id: size._id }))
+        images: images.length > 0 ? images : productEdit.images
+        // size: values.size.map((size: any) => ({ name: size.name, price: Number(size.price), _id: size._id }))
       }
       try {
         const response = await editProduct({ id: productEdit._id, product: data }).unwrap()
@@ -207,7 +207,7 @@ const FormProduct = () => {
           </Col>
         </Row>
         <Row gutter={16}>
-          <Col span={12}>
+          {/* <Col span={12}>
             <Form.Item
               name='toppings'
               label='Lựa chọn topping'
@@ -221,8 +221,8 @@ const FormProduct = () => {
                 ))}
               </Select>
             </Form.Item>
-          </Col>
-          <Col span={12}>
+          </Col> */}
+          <Col span={24}>
             <Form.Item
               name='is_active'
               label='Trạng thái sản phẩm'
@@ -235,7 +235,7 @@ const FormProduct = () => {
             </Form.Item>
           </Col>
         </Row>
-        <Row gutter={16}>
+        {/* <Row gutter={16}>
           <Col span={12}>
             <Form.Item className='w-full' label='Size sản phẩm'>
               <Form.List name='size'>
@@ -288,11 +288,36 @@ const FormProduct = () => {
               </Select>
             </Form.Item>
           </Col>
-        </Row>
+        </Row> */}
+        {/* <Row gutter={16}>
+          <Col span={24}>
+            <Form.Item name='priceOrigin' label=' giá'>
+              <InputNumber
+                placeholder=' giá sản phẩm'
+                className='w-full'
+                formatter={(value) =>
+                  value
+                    ? value.replace(/\B(?=(\d{3})+(?!\d))/g, ',') // Thêm dấu ',' sau mỗi 3 chữ số
+                    : ''
+                }
+                parser={(value) => value.replace(/[^0-9]/g, '')}
+              />
+            </Form.Item>
+          </Col>
+        </Row> */}
         <Row gutter={16}>
-          <Col span={12}>
-            <Form.Item name='sale' label='Giảm giá'>
-              <InputNumber placeholder='Giảm giá sản phẩm' className='w-full' />
+          <Col span={24}>
+            <Form.Item name='sale' label=' giá'>
+              <InputNumber
+                placeholder=' giá sản phẩm'
+                className='w-full'
+                formatter={(value) =>
+                  value
+                    ? value.replace(/\B(?=(\d{3})+(?!\d))/g, ',') // Thêm dấu ',' sau mỗi 3 chữ số
+                    : ''
+                }
+                parser={(value) => value.replace(/[^0-9]/g, '')}
+              />
             </Form.Item>
           </Col>
         </Row>

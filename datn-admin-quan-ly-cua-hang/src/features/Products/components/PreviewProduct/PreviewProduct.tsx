@@ -61,7 +61,7 @@ const PreviewProduct = () => {
                     <span className='mt-[2px] mr-3'>
                       <BiSolidDiscount />
                     </span>
-                    <span className=''>{product.sale}</span>
+                    <span className=''>{product.sale?.toLocaleString()} VND</span>
                   </span>
                 )}
               </h1>
@@ -76,7 +76,7 @@ const PreviewProduct = () => {
             </div>
           </div>
         </div>
-        <div className='relative flex flex-col gap-3'>
+        {/* <div className='relative flex flex-col gap-3'>
           <div className=''>
             <h2 className='text-lg font-semibold'>Size</h2>
           </div>
@@ -95,7 +95,7 @@ const PreviewProduct = () => {
             columns={columns}
             pagination={false}
           />
-        </div>
+        </div> */}
       </div>
     </Drawer>
   )

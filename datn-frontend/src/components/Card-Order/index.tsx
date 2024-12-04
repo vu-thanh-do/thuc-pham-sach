@@ -85,12 +85,12 @@ const CardOrder = ({ product }: CardOrderProps) => {
   return (
     <div className='card flex justify-between items-center border border-transparent border-b-[#f1f1f1] tracking-tight '>
       <div className='py-3'>
-        <div className='name font-semibold'>{product?.name}</div>
+        <div className='name font-semibold'>{product.name?.length > 35 ? product.name?.slice(0,35) +'...' :product.name }</div>
         {product?.items?.length > 0 &&
           product?.items?.map((item, index) => (
             <div className='flex items-center gap-1 styleSelecbox' key={uuidv4()}>
               <div>
-                {dataSize && (
+                {/* {dataSize && (
                   <Select
                     defaultValue={item.size._id}
                     style={{ width: 120 }}
@@ -101,7 +101,7 @@ const CardOrder = ({ product }: CardOrderProps) => {
                       label: item.name
                     }))}
                   />
-                )}
+                )} */}
 
                 <div className='customize text-[#adaeae] truncate w-[182px]' key={uuidv4()}>
                   <span className='overflow-hidden truncate'>

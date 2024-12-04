@@ -492,7 +492,7 @@ const CardThree = ({ data, data2 }: CardThreeProps) => {
 
           <CardTwo price={data2?.['doanh thu tháng này']['tổng doanh thu']} title={''} isCurrency={true} />
 
-          <CardOne data={data2?.['doanh thu tháng này']} />
+          {/* <CardOne data={data2?.['doanh thu tháng này']} /> */}
 
           <div className='rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark'>
             <div className='flex justify-between items-center'>

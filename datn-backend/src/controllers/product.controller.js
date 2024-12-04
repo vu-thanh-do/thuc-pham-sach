@@ -9,12 +9,7 @@ export const ProductController = {
     try {
       const Data = req.body;
       const { category } = Data;
-      const { error } = productValidate.validate(Data, { abortEarly: false });
-      if (error) {
-        return res
-          .status(400)
-          .json({ message: 'fail', err: error.details.map((err) => err.message) });
-      }
+     
       const existCategory = await Category.findById(category);
       if (!existCategory) {
         return res.status(404).json({ message: 'fail', err: 'Create Product failed' });
@@ -76,33 +71,33 @@ export const ProductController = {
       const sizeArray = body.size;
       let dataSizeArray = [];
       /* kiểm tra xem size thêm vào có trùng với size mặc định hay không */
-      const sizeDefault = body.sizeDefault;
-      if (sizeArray) {
-        for (let index = 0; index < sizeDefault.length; index++) {
-          const element = await Size.findById(sizeDefault[index]);
-          /*
-          so sánh xem tên element size default đó trùng với tên size người dùng đẩy lên thì lấy size mới người dùng thêm
-          chứ không lấy size mặc định nữa, loại bỏ id size default đó ra khỏi mảng sizeDefault
-        */
-          for (let i = 0; i < sizeArray.length; i++) {
-            if (element.name === sizeArray[i].name) {
-              sizeDefault.splice(index, 1);
-            }
-          }
-        }
-        /* tạo ra size này */
-        for (const sizeItem of sizeArray) {
-          const sizeCreate = await Size.create(sizeItem);
-          if (!sizeCreate) {
-            return res.status(400).json({ message: 'fail', err: 'Create Size failed' });
-          }
-          sizeIdArray.push(sizeCreate._id);
-        }
-        /* tạo ra product này */
-        dataSizeArray = [...sizeIdArray, ...body.sizeDefault];
-      } else {
-        dataSizeArray = [...body.sizeDefault];
-      }
+      // const sizeDefault = body.sizeDefault;
+      // if (sizeArray) {
+      //   for (let index = 0; index < sizeDefault.length; index++) {
+      //     const element = await Size.findById(sizeDefault[index]);
+      //     /*
+      //     so sánh xem tên element size default đó trùng với tên size người dùng đẩy lên thì lấy size mới người dùng thêm
+      //     chứ không lấy size mặc định nữa, loại bỏ id size default đó ra khỏi mảng sizeDefault
+      //   */
+      //     for (let i = 0; i < sizeArray.length; i++) {
+      //       if (element.name === sizeArray[i].name) {
+      //         sizeDefault.splice(index, 1);
+      //       }
+      //     }
+      //   }
+      //   /* tạo ra size này */
+      //   for (const sizeItem of sizeArray) {
+      //     const sizeCreate = await Size.create(sizeItem);
+      //     if (!sizeCreate) {
+      //       return res.status(400).json({ message: 'fail', err: 'Create Size failed' });
+      //     }
+      //     sizeIdArray.push(sizeCreate._id);
+      //   }
+      //   /* tạo ra product này */
+      //   dataSizeArray = [...sizeIdArray, ...body.sizeDefault];
+      // } else {
+      //   dataSizeArray = [...body.sizeDefault];
+      // }
       const productData = {
         name: body.name,
         description: body.description,
@@ -122,26 +117,26 @@ export const ProductController = {
         $addToSet: { products: product._id },
       });
       /* update topping */
-      const { toppings } = body;
-      if (toppings.length > 0) {
-        for (let i = 0; i < toppings.length; i++) {
-          await Topping.findByIdAndUpdate(toppings[i], {
-            $addToSet: { products: product._id },
-          });
-        }
-      }
+      // const { toppings } = body;
+      // if (toppings.length > 0) {
+      //   for (let i = 0; i < toppings.length; i++) {
+      //     await Topping.findByIdAndUpdate(toppings[i], {
+      //       $addToSet: { products: product._id },
+      //     });
+      //   }
+      // }
       /* update size */
-      const { sizes } = productData;
-      if (sizes.length > 0) {
-        for (let i = 0; i < sizes.length; i++) {
-          await Size.findByIdAndUpdate(sizes[i], {
-            $addToSet: { productId: product._id },
-          });
-        }
-      }
+      // const { sizes } = productData;
+      // if (sizes.length > 0) {
+      //   for (let i = 0; i < sizes.length; i++) {
+      //     await Size.findByIdAndUpdate(sizes[i], {
+      //       $addToSet: { productId: product._id },
+      //     });
+      //   }
+      // }
       return res.status(200).json({ message: 'success', data: product });
     } catch (error) {
-      return res.status(500).json({ message: 'fail', err: error });
+      return res.status(500).json({ message: 'fail', err: error.message });
     }
   },
 
@@ -225,12 +220,12 @@ export const ProductController = {
   updateProduct: async (req, res, next) => {
     try {
       const { category } = req.body;
-      const { error } = productValidate.validate(req.body, { abortEarly: false });
-      if (error) {
-        return res
-          .status(400)
-          .json({ message: 'fail', err: error.details.map((err) => err.message) });
-      }
+      // const { error } = productValidate.validate(req.body, { abortEarly: false });
+      // if (error) {
+      //   return res
+      //     .status(400)
+      //     .json({ message: 'fail', err: error.details.map((err) => err.message) });
+      // }
       const existCategory = await Category.findById(category);
       if (!existCategory) {
         return res.status(404).json({ message: 'fail', err: 'Not found category' });
@@ -241,37 +236,37 @@ export const ProductController = {
       });
 
       // /* cập nhật lại size */
-      const sizes = product.sizes;
-      const sizeListNew = [];
-      const sizeBody = req.body.size;
-      if (sizeBody.length > 0) {
-        const results = sizeBody.filter((sizeItem) => {
-          return !sizeItem._id;
-        });
-        if (results.length > 0) {
-          for (let sizeItem of results) {
-            const size = await Size.create(sizeItem);
-            sizeListNew.push(size);
-          }
-        }
-      }
-      if (sizes.length > 0) {
-        for (let i = 0; i < sizes.length; i++) {
-          await Size.findByIdAndUpdate(sizes[i], {
-            $pull: { productId: product._id },
-          });
-        }
-      }
+      // const sizes = product.sizes;
+      // const sizeListNew = [];
+      // const sizeBody = req.body.size;
+      // if (sizeBody.length > 0) {
+      //   const results = sizeBody.filter((sizeItem) => {
+      //     return !sizeItem._id;
+      //   });
+      //   if (results.length > 0) {
+      //     for (let sizeItem of results) {
+      //       const size = await Size.create(sizeItem);
+      //       sizeListNew.push(size);
+      //     }
+      //   }
+      // }
+      // if (sizes.length > 0) {
+      //   for (let i = 0; i < sizes.length; i++) {
+      //     await Size.findByIdAndUpdate(sizes[i], {
+      //       $pull: { productId: product._id },
+      //     });
+      //   }
+      // }
 
-      const { size, sizeDefault } = req.body;
+      // const { size, sizeDefault } = req.body;
 
-      if (size.length > 0) {
-        for (let sizeItem of size) {
-          await Size.findByIdAndUpdate(sizeItem._id, sizeItem, { new: true });
-          sizeListNew.push(sizeItem._id);
-        }
-      }
-      const data = { ...req.body, sizes: [...sizeListNew, ...sizeDefault] };
+      // if (size.length > 0) {
+      //   for (let sizeItem of size) {
+      //     await Size.findByIdAndUpdate(sizeItem._id, sizeItem, { new: true });
+      //     sizeListNew.push(sizeItem._id);
+      //   }
+      // }
+      const data = { ...req.body };
       const resultUpdate = await Product.findByIdAndUpdate(req.body._id, data, { new: true });
       if (!resultUpdate) {
         return res.status(500).json({ message: 'fail', err: 'Update failed' });
@@ -281,22 +276,22 @@ export const ProductController = {
       }
 
       /* cập nhật lại topping */
-      const toppings = product.toppings;
-      if (toppings.length > 0) {
-        for (let i = 0; i < toppings.length; i++) {
-          await Topping.findByIdAndUpdate(toppings[i], {
-            $pull: { products: product._id },
-          });
-        }
-      }
-      const updateTopping = req.body.toppings;
-      if (updateTopping.length > 0) {
-        for (let i = 0; i < updateTopping.length; i++) {
-          await Topping.findByIdAndUpdate(updateTopping[i], {
-            $addToSet: { products: product._id },
-          });
-        }
-      }
+      // const toppings = product.toppings;
+      // if (toppings.length > 0) {
+      //   for (let i = 0; i < toppings.length; i++) {
+      //     await Topping.findByIdAndUpdate(toppings[i], {
+      //       $pull: { products: product._id },
+      //     });
+      //   }
+      // }
+      // const updateTopping = req.body.toppings;
+      // if (updateTopping.length > 0) {
+      //   for (let i = 0; i < updateTopping.length; i++) {
+      //     await Topping.findByIdAndUpdate(updateTopping[i], {
+      //       $addToSet: { products: product._id },
+      //     });
+      //   }
+      // }
 
       if (!product) {
         return res.status(404).json({ message: 'fail', err: 'Not found Product to update' });

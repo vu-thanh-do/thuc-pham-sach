@@ -24,17 +24,15 @@ const ListProductItem = ({ product, fetchProductById }: ListProductItemProps) =>
           <p className='product-origin-price text-[#8a733f] mb-[20px]'>
             {product?.sale !== 0 && product.sizes
               ? formatCurrency(
-                  product.sale &&
-                    // ? product?.sizes[0]?.price * ((product.sale - 100) / 100)
-                    product?.sizes[0]?.price - product.sale
+                  product.sale
                 )
-              : formatCurrency(product.sizes && product?.sizes[0]?.price)}
+              : formatCurrency(product.sale)}
           </p>
-          {product?.sale !== 0 && (
+          {/* {product?.sale !== 0 && (
             <span className='text-[#bebebe] text-[13px] line-through'>
-              {formatCurrency(product.sizes && product?.sizes[0]?.price)}
+              {formatCurrency(product.sale)}
             </span>
-          )}
+          )} */}
         </div>
       </div>
       <div className='quantity w-[20px] h-[20px] bg-[#799dd9] rounded-full text-white absolute right-[15px] bottom-[15px] flex justify-around items-center'>

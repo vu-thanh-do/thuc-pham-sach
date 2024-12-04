@@ -158,7 +158,7 @@ const MyOrder = () => {
                         {/* <div className='category'>
                           <span className='text-sm text-[#866312]'>Danh mục: Cà phê</span>
                         </div> */}
-                        <div>
+                        {/* <div>
                           <div className='size'>
                             <span className='text-sm text-[#866312]'>Size: {item.size.name}</span>
                           </div>
@@ -172,7 +172,7 @@ const MyOrder = () => {
                               )}
                             </span>
                           </div>
-                        </div>
+                        </div> */}
                         <div className='quantity'>x{item.quantity}</div>
                       </div>
                     </div>

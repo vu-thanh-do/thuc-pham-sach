@@ -22,7 +22,7 @@ const FeatureDashboard = () => {
       <div className='grid grid-cols-1 gap-4 mb-6 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5'>
         {/* <CardTwo data={dataAnalytics2?.['doanh thu tháng này']} /> */}
         <ProductAnalytic dataAnalytics2={dataAnalytics2} dataAnalytics={dataAnalytics} />
-        <CardOne data={dataAnalytics2?.['doanh thu tháng này']} />
+        {/* <CardOne data={dataAnalytics2?.['doanh thu tháng này']} /> */}
         <CardThree data={dataAnalytics} data2={dataAnalytics2} />
         <CardFour data={dataAnalytics.users} />
       </div>

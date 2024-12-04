@@ -26,20 +26,19 @@ const orderSchema = new mongoose.Schema(
           // product này là id của product
           type: mongoose.Schema.Types.ObjectId,
           ref: 'Product',
-          required: true,
         },
         image: { type: String },
-        quantity: { type: Number, required: true },
-        price: { type: Number, required: true },
+        quantity: { type: Number },
+        price: { type: Number },
         toppings: [
           {
-            name: { type: String, required: true },
-            price: { type: Number, required: true },
+            name: { type: String },
+            price: { type: Number },
           },
         ],
         size: {
-          name: { type: String, required: true },
-          price: { type: Number, required: true },
+          name: { type: String },
+          price: { type: Number },
         },
       },
     ],
@@ -59,23 +58,20 @@ const orderSchema = new mongoose.Schema(
       // type: mongoose.Schema.Types.ObjectId,
       // ref: 'Payment',
       type: String,
-      required: true,
       enum: ['cod', 'momo', 'vnpay', 'zalopay', 'stripe'],
       default: 'cod',
     },
     inforOrderShipping: {
       name: {
         type: String,
-        required: true,
       },
       address: {
         type: String,
-        required: true,
       },
-      email: { type: String, required: true },
+      email: { type: String},
       phone: {
         type: String,
-        required: true,
+        
       },
       noteShipping: { type: String },
     },

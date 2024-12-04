@@ -86,24 +86,24 @@ const DetailOrder = ({ open }: DetailOrderProps) => {
       key: 'quantity',
       render: (quantity: number) => <span className='font-semibold text-base'>{quantity}</span>
     },
-    {
-      title: 'Size',
-      dataIndex: 'size',
-      key: 'size',
-      render: (size) => <span className='font-semibold text-base'>{size.name}</span>
-    },
-    {
-      title: 'Toppings',
-      dataIndex: 'toppings',
-      key: 'toppings',
-      render: (toppings) =>
-        toppings.map((topping: ITopping, index: number) => (
-          <span key={index} className='font-semibold text-base capitalize'>
-            {topping.name}
-            <br />
-          </span>
-        ))
-    },
+    // {
+    //   title: 'Size',
+    //   dataIndex: 'size',
+    //   key: 'size',
+    //   render: (size) => <span className='font-semibold text-base'>{size.name}</span>
+    // },
+    // {
+    //   title: 'Toppings',
+    //   dataIndex: 'toppings',
+    //   key: 'toppings',
+    //   render: (toppings) =>
+    //     toppings.map((topping: ITopping, index: number) => (
+    //       <span key={index} className='font-semibold text-base capitalize'>
+    //         {topping.name}
+    //         <br />
+    //       </span>
+    //     ))
+    // },
     {
       title: 'Giá',
       dataIndex: 'price',

@@ -24,24 +24,20 @@ export const orderController = {
       };
       const encodeStripe = generatePaymentToken(note);
       /* validate */
-      const { error } = orderValidate.validate(body, { abortEarly: false });
-      if (error) {
-        return res.status(400).json({ error: error.message });
-      }
-
+     
       const items = body.items;
       /* tính tổng tiền của đơn hàng người dùng vừa đặt */
-      let total = 0;
-      items.forEach((item) => {
-        total += item.quantity * item.price;
-        /* nếu mà sản phẩm có topping */
-        if (item.toppings.length > 0 && item.toppings) {
-          item.toppings.forEach((topping) => {
-            total += topping.price;
-          });
-        }
-      });
-      let totalAll = 0;
+      let total = Number(body.total) - Number(body.priceShipping);
+      // items.forEach((item) => {
+      //   total += item.quantity * item.price;
+      //   /* nếu mà sản phẩm có topping */
+      //   if (item.toppings.length > 0 && item.toppings) {
+      //     item.toppings.forEach((topping) => {
+      //       total += topping.price;
+      //     });
+      //   }
+      // });
+      let totalAll = body.total;
       const priceShipping = Number(body.priceShipping) || 0;
       // check _id or phone user
       const userUsedVoucher = body.inforOrderShipping.phone;
@@ -95,7 +91,7 @@ export const orderController = {
         subject: 'cảm ơn bạn đã đặt hàng tại Trà sữa Connect',
       };
 
-      await sendEmailOrder(dataEmail);
+      // await sendEmailOrder(dataEmail);
       const cart = await Cart.deleteMany({
         user: order.user,
       });
@@ -262,7 +258,7 @@ export const orderController = {
        `,
     };
 
-    await sendEmailOrder(dataEmail);
+    // await sendEmailOrder(dataEmail);
 
     return updateState;
   },
@@ -341,7 +337,7 @@ export const orderController = {
         subject: 'cảm ơn bạn đã đặt hàng tại Trà sữa Connect',
       };
 
-      await sendEmailOrder(dataEmail1);
+      // await sendEmailOrder(dataEmail1);
       return res.status(200).json({ message: 'canceled order successfully', order: orderCanceled });
     } catch (error) {
       return res.status(500).json({ error: error.message });
