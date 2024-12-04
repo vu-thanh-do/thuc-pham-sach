@@ -1,0 +1,112 @@
+[{
+  "_id": {
+    "$oid": "65478ff23401df94791e6329"
+  },
+  "name": "Sự kiện",
+  "is_deleted": false,
+  "is_active": true,
+  "blogs": [
+    {
+      "$oid": "65481f02de57877b933a8454"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-05T12:52:02.783Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T08:48:25.620Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65478ffd3401df94791e632b"
+  },
+  "name": "Tin tức khuyến mại",
+  "is_deleted": false,
+  "is_active": true,
+  "blogs": [
+    {
+      "$oid": "654790393401df94791e632f"
+    },
+    {
+      "$oid": "654a8b489f3e56c05409253a"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-05T12:52:13.814Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T08:48:14.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654817d0de57877b933a8309"
+  },
+  "name": "Câu chuyện thương hiệu",
+  "is_deleted": false,
+  "is_active": true,
+  "blogs": [
+    {
+      "$oid": "654a8bc49f3e56c0540925cd"
+    },
+    {
+      "$oid": "654a8f459f3e56c054092654"
+    },
+    {
+      "$oid": "654a91208c1d1e05e6649e2f"
+    },
+    {
+      "$oid": "655232629191ac2b3582ab70"
+    },
+    {
+      "$oid": "654fa2974378aae90f4853a5"
+    },
+    {
+      "$oid": "654abc7b8c1d1e05e664a18f"
+    },
+    {
+      "$oid": "65626aba2b19413ebd9f00b6"
+    },
+    {
+      "$oid": "65703a745f65584abe342482"
+    },
+    {
+      "$oid": "6571df358f07589ca87685a9"
+    },
+    {
+      "$oid": "654a91478c1d1e05e6649e63"
+    },
+    {
+      "$oid": "6544fc08d8555940da493deb"
+    },
+    {
+      "$oid": "66ac893681d7bf3164f56ee7"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-11-05T22:31:44.088Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:22:30.673Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65815d3672c3c557832750dd"
+  },
+  "name": "Chính sách",
+  "is_deleted": false,
+  "is_active": true,
+  "blogs": [
+    {
+      "$oid": "65815df672c3c557832751ef"
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-12-19T09:07:02.520Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T09:10:14.978Z"
+  }
+}]

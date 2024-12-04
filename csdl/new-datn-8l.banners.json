@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "674fcc9bf538d7b1f7734eb7"
+  },
+  "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1733282971/ua1bfabmxixp2gprmn3j.jpg",
+  "publicId": "ua1bfabmxixp2gprmn3j",
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "674fcca7f538d7b1f7734ebb"
+  },
+  "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1733282982/skuakdwbkkwsoefdh9mo.jpg",
+  "publicId": "skuakdwbkkwsoefdh9mo",
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "674fccb1f538d7b1f7734ebf"
+  },
+  "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1733282992/gndnwbcxe3a9j8akgmnw.jpg",
+  "publicId": "gndnwbcxe3a9j8akgmnw",
+  "is_active": true
+}]

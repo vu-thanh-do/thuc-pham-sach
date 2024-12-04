@@ -1,0 +1,246 @@
+[{
+  "_id": {
+    "$oid": "6544fc08d8555940da493deb"
+  },
+  "name": "“Back to School” cùng Kem dâu tây ngon quên lối về của ToCoToCo",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1699019782/pwuzgaahr52aqes57fra.png",
+      "publicId": "pwuzgaahr52aqes57fra",
+      "filename": "xivsuzdxpbb8rdvtgkua",
+      "_id": {
+        "$oid": "6544fc08d8555940da493dec"
+      }
+    }
+  ],
+  "description": "<p>Khúc biến tấu của kem dâu tây vừa ra mắt của ToCoToCo với nhiều cung bậc khác nhau đã đem đến những trải nghiệm mới mẻ cho các bạn trẻ trong thời gian gần đây và trở thành món ngon yêu thích của mọi người.</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-11-03T13:56:24.457Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-22T14:11:21.421Z"
+  },
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  }
+},
+{
+  "_id": {
+    "$oid": "6544fc94d8555940da493e2e"
+  },
+  "name": "MƯA ƯU ĐÃI TRÀ SỮA ĐỒNG GIÁ 25K CÙNG TOCOTOCO CHÀO HÈ",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1699019922/muze595hrmdvh9g0swld.png",
+      "publicId": "muze595hrmdvh9g0swld",
+      "filename": "z1tv76odrfes59ckyhbo",
+      "_id": {
+        "$oid": "6544fc94d8555940da493e2f"
+      }
+    }
+  ],
+  "description": "<p>Thương hiệu trà sữa <a href=\"https://chat.openai.com/\" rel=\"noopener noreferrer\" target=\"_blank\">ToCoToCo</a> ngay từ những bước đầu chập chững của năm 2013 đã được nhiều người yêu thích, ToCoToCo đã đặt tiêu chí chất lượng thành phẩm lên hàng đầu: mọi nguyên liệu, hương liệu từ sữa tươi, lá trà, trân châu đều được lựa chọn kỹ càng, tươi sạch, đảm bảo an toàn vệ sinh thực phẩm. Hành trình 10 năm xây dựng và phát triển, thương hiệu ToCoToCo đã có vị trí đứng trong lòng mọi người, đây cũng là thương hiệu sở hữu một lượng “Fan trà sữa ToCoToCo” đông đảo bởi những đồ uống thơm ngon, siêu hấp dẫn.</p><p><br></p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-11-03T13:58:44.740Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-04T00:14:54.722Z"
+  },
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  }
+},
+{
+  "_id": {
+    "$oid": "6544fcd6d8555940da493e55"
+  },
+  "name": "Tưng bừng sinh nhật ToCoToCo: Iphone 13 Promax và hàng ngàn quà tặng khủng đã có chủ nhân",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1699019988/zkjglatgnfuqram7unm3.png",
+      "publicId": "zkjglatgnfuqram7unm3",
+      "filename": "e8fnrpypvuliwftbwlaf",
+      "_id": {
+        "$oid": "6544fcd6d8555940da493e56"
+      }
+    }
+  ],
+  "description": "<p>Theo<a href=\"https://www.facebook.com/\" rel=\"noopener noreferrer\" target=\"_blank\"> vietbao.vn</a> – Thổi nến sinh nhật lần thứ 8, thương hiệu trà sữa Trà Sữa Connect “chốt deal” xịn xò khi tung chương trình quay số trúng thưởng iPhone 13 Pro Max và mặt dây chuyền vàng 18k mỗi tuần từ 10/11 đến 12/12/2021. Chủ nhân chiếc iPhone 13 Promax đã xuất hiện cùng hàng ngàn quà tặng đã được gọi tên.</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-11-03T13:59:50.517Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T13:59:50.517Z"
+  },
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  }
+},
+{
+  "_id": {
+    "$oid": "654a91478c1d1e05e6649e63"
+  },
+  "name": "Sự trở lại của tocoto",
+  "images": [
+    {
+      "url": "https://tocotocotea.com/wp-content/uploads/2023/05/Hinh-thumb_zalo.png",
+      "publicId": "aaaaaaaaaaa",
+      "filename": "ƯU ĐÃI TRÀ SỮA ĐỒNG GIÁ 25K",
+      "_id": {
+        "$oid": "654a91478c1d1e05e6649e64"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  },
+  "description": "<p>ABC</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-11-07T19:34:31.015Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-17T08:01:35.051Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "654abc7b8c1d1e05e664a18f"
+  },
+  "name": "Có gì đặc biệt trong set quà độc quyền chào mừng 20/10 của ToCoToCo?",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1699396728/f9ysmchcsg83x4abp9ue.jpg",
+      "publicId": "f9ysmchcsg83x4abp9ue",
+      "filename": "thumb",
+      "_id": {
+        "$oid": "654abc7b8c1d1e05e664a190"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  },
+  "description": "<p>Nhân dịp một nửa thế giới nhận quà ngày 20/10, ToCoToCo đón đầu cơn sốt tặng phái đẹp Una Collagen đẹp da, sáng mịn khi mua trà sữa ToCoToCo combo từ 50k. Đây là dịp để chị em phụ nữ có thời gian chăm chút bản thân, tự thưởng những món quà yêu thích để tự tin và tỏa sáng hơn.</p><p>20/10 là ngày mà người phụ nữ cần được tôn vinh và quan tâm nhiều hơn, do đó một món quà ý nghĩa sẽ là niềm hạnh phúc vô bờ. Bắt trúng tâm lý các nàng, ToCoToCo vừa chiêu đãi trà sữa size L chỉ 25k, ly 1 lít 35k mà còn được tặng Una Collagen đẹp da sáng mịn. Chỉ cần hóa đơn từ 50k là các nàng nhận ngay 2 Una Collagen, hóa đơn 100k là nhận 1 hộp Una Una Collagen 4 gói. Vừa được uống trà sữa, vừa được tặng Collagen còn gì bằng, quà tặng quá hấp dẫn phải không các nàng?</p>",
+  "is_deleted": true,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-11-07T22:38:51.098Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-25T17:46:57.689Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65703a745f65584abe342482"
+  },
+  "name": "Cùng ToCoToCo nhân đôi sự ngọt ngào mùa lễ hội",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1701853807/adlxoyis5jxabdugsqpt.png",
+      "publicId": "adlxoyis5jxabdugsqpt",
+      "filename": "SPM_CHOCO_zalo-1",
+      "_id": {
+        "$oid": "65703a745f65584abe342483"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  },
+  "description": "<p>Theo&nbsp;<a href=\"https://suckhoedoisong.vn/cung-tocotoco-nhan-doi-su-ngot-ngao-mua-le-hoi-169220105171425566.htm\" rel=\"noopener noreferrer\" target=\"_blank\">suckhoedoisong.vn</a>&nbsp;– Nhấn nhá chút vị đậm đà từ socola và hồng trà kết hợp hương thơm beo béo của macchiato kem cà phê thêm chút topping hạt ngũ cốc trái cây giòn tan của Choco ngũ cốc kem cafe và Hồng trà ngũ cốc kem cafe từ thương hiệu ToCoToCo mang đến cơn gió mới đọng lại hương vị quyến rũ làm bạn nhớ mãi mùa lễ hội năm nay!</p><p>Đón chào năm mới, các thành phố lại khoác lên mình chiếc áo mới lộng lẫy. Đây cũng là một trong những dịp hiếm hoi trong năm, không khí lễ hội vui tươi tràn ngập khắp Sài Gòn và Hà Nội. Tiết trời mát mẻ, dễ chịu, khô ráo thích hợp để ra đường, hòa vào dòng người đông vui. Hưởng ứng giai điệu tưng bừng đó, ToCoToCo cũng kịp trình làng một sắc màu hương vị mới để chào đón những vị khách của mình với hai sản phẩm: Choco ngũ cốc kem cafe và Hồng trà ngũ cốc kem cafe.</p><p>Có thể nói rằng ToCoToCo là một trong những thương hiệu đồ uống hiếm hoi hưởng ứng không khí các mùa lễ hội từ hình thức đến hương vị của các nước uống. Bởi thế, cứ đến dịp lễ hội là các tín đồ mê trà sữa lại tích cực tìm đến ToCoToCo để thưởng thức các vị thức uống đặc trưng và trải nghiệm những hương vị mới.</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-12-06T09:10:13.003Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:23:08.314Z"
+  },
+  "comments": [
+    {
+      "userId": "66ac888a81d7bf3164f56d66",
+      "nameUser": "tungf",
+      "avatar": "https://ui-avatars.com/api/?name=tungf",
+      "image": "",
+      "content": "hello"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65815df672c3c557832751ef"
+  },
+  "name": "Chính sách đổi trả",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1702977013/r8pkrtyig6qcnngneso4.jpg",
+      "publicId": "r8pkrtyig6qcnngneso4",
+      "filename": "chinh-sach-doi-tra-hang",
+      "_id": {
+        "$oid": "65815df672c3c557832751f0"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "65815d3672c3c557832750dd"
+  },
+  "description": "<h1><strong>Chính sách đổi trả</strong></h1><p><strong>1. Điều kiện đổi trả</strong></p><p>Quý Khách hàng cần kiểm tra tình trạng hàng hóa và có thể đổi hàng/ trả lại hàng&nbsp;ngay tại thời điểm giao/nhận hàng&nbsp;trong những trường hợp sau:</p><ul><li>Hàng không đúng chủng loại, mẫu mã trong đơn hàng đã đặt hoặc như trên website tại thời điểm đặt hàng.</li><li>Không đủ số lượng, không đủ bộ như trong đơn hàng.</li><li>Tình trạng bên ngoài bị ảnh hưởng như rách bao bì, bong tróc, bể vỡ…</li></ul><p>&nbsp;Khách hàng có trách nhiệm trình giấy tờ liên quan chứng minh sự thiếu sót trên để hoàn thành việc&nbsp;hoàn trả/đổi trả hàng hóa.&nbsp;</p><p><br></p><p><strong>2. Quy định về thời gian thông báo và gửi sản phẩm đổi trả</strong></p><ul><li><strong>Thời gian thông báo đổi trả</strong>:&nbsp;trong vòng 24h kể từ khi nhận sản phẩm đối với trường hợp sản phẩm thiếu phụ kiện, quà tặng hoặc bể vỡ.</li><li><strong>Thời gian gửi chuyển trả sản phẩm</strong>: trong vòng 2 ngày kể từ khi nhận sản phẩm.</li><li><strong>Địa điểm đổi trả sản phẩm</strong>: Khách hàng có thể mang hàng trực tiếp đến văn phòng/ cửa hàng của chúng tôi hoặc chuyển qua đường bưu điện.</li></ul><p>Trong trường hợp Quý Khách hàng có ý kiến đóng góp/khiếu nại liên quan đến chất lượng sản phẩm, Quý Khách hàng vui lòng liên hệ đường dây chăm sóc khách hàng&nbsp;của chúng tôi.</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2023-12-19T09:10:14.756Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:22:45.619Z"
+  },
+  "comments": [
+    {
+      "userId": "66ac888a81d7bf3164f56d66",
+      "nameUser": "tungf",
+      "avatar": "https://ui-avatars.com/api/?name=tungf",
+      "image": "",
+      "content": "123"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ac893681d7bf3164f56ee7"
+  },
+  "name": "sach 12e",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1722583351/zqeupv5rllacslkbipbp.png",
+      "publicId": "zqeupv5rllacslkbipbp",
+      "filename": "Screenshot 2022-03-06 091000",
+      "_id": {
+        "$oid": "66ac893681d7bf3164f56ee8"
+      }
+    }
+  ],
+  "category": {
+    "$oid": "654817d0de57877b933a8309"
+  },
+  "description": "<p>sach 12esach 12esach 12esach 12esach 12e</p>",
+  "is_deleted": false,
+  "is_active": true,
+  "id_user": {
+    "$oid": "66ac888a81d7bf3164f56d66"
+  },
+  "comments": [],
+  "createdAt": {
+    "$date": "2024-08-02T07:22:30.582Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:22:30.582Z"
+  }
+}]

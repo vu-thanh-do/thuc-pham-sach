@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "656beed9f2f3ae96e688ddfc"
+  },
+  "name": "Khác",
+  "products": [
+    {
+      "$oid": "674fc0d296da9d3ea6063ccd"
+    },
+    {
+      "$oid": "674fc36d310a09c1ad2f542a"
+    }
+  ],
+  "is_deleted": false,
+  "createdAt": {
+    "$date": "2023-12-03T02:58:33.219Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T02:50:21.153Z"
+  }
+}]

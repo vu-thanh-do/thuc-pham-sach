@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "674fc0d296da9d3ea6063ccd"
+  },
+  "name": "[ 75g] Gia vị cô đặc nấu súp nấm chay Việt Hương, gồm 4 viên",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1733279691/ub1urx0xw4qekvpm1a4u.jpg",
+      "publicId": "ub1urx0xw4qekvpm1a4u",
+      "filename": "39144034-300833310690456-61909-1374-6687-1535085327",
+      "_id": {
+        "$oid": "674fc0d296da9d3ea6063cce"
+      }
+    }
+  ],
+  "description": "Gia vị cô đặc nấu súp nấm chay Việt Hương 75g gồm 4 viên\nMón súp nấm chay thanh tịnh sẽ là gợi ý tuyệt vời cho bạn muốn đổi vị cho cả nhà. Món súp có vị thanh ngọt được làm từ các loại nấm, ăn rất nhẹ bụng.\n\nThành phần: Đường, muối Iốt, nước, chất điều vị (621), mạch nha, chất diều chỉnh độ acid, hành paro, bột nấm hương, tiêu, chiết xuất nấm men, chất tạo ngọt tổng hợp.\nCách dùng: Cho 4 viên gia vị súp nấm chay vào 1/2 chén nước chín, khuấy tan; dùng để ướp, nêm các món canh, xào kho, nấu lẩu chay hoặc mặn đều ngon.\nBảo quản: Nơi khô ráo thoáng mát, tránh ánh sáng trực tiếp\nHạn sử dụng: 12 tháng\nLiên hệ hỗ trợ tư vấn tận tình qua hotline: 0934.109.002",
+  "sale": 123131323,
+  "category": {
+    "$oid": "656beed9f2f3ae96e688ddfc"
+  },
+  "sizes": [],
+  "toppings": [],
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2024-12-04T02:39:14.117Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T02:41:30.906Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "674fc36d310a09c1ad2f542a"
+  },
+  "name": "[500gr] Chả cua chay Phương Loan thơm ngon, nổi tiếng, bán chạy",
+  "images": [
+    {
+      "url": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1733280618/kg97o7fuwuwhecanyao7.jpg",
+      "publicId": "kg97o7fuwuwhecanyao7",
+      "filename": "Cha-cua-Phuong-Loan-500g-510x521",
+      "_id": {
+        "$oid": "674fc36d310a09c1ad2f542b"
+      }
+    }
+  ],
+  "description": "CHẢ CUA CHAY\n\n+ Thành phần: Đậm đậu nành, gia vị chay, rong sụn biển.\n\n+ Chế biến: Rã đông dùng kho, xào ăn kèm cơn bún, chiên kẹp bánh mì chay, nấu lẩu chay…\n\n+ Bảo quản: Tủ đông -18 độ C\n\n+ Hạn sử dụng: 12 tháng kể từ ngày sản xuất",
+  "sale": 32132132,
+  "category": {
+    "$oid": "656beed9f2f3ae96e688ddfc"
+  },
+  "sizes": [],
+  "toppings": [],
+  "is_deleted": false,
+  "is_active": true,
+  "createdAt": {
+    "$date": "2024-12-04T02:50:21.140Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T02:50:21.140Z"
+  }
+}]

@@ -1,0 +1,749 @@
+[{
+  "_id": {
+    "$oid": "653937a91ebfe330733d7c83"
+  },
+  "name": "L",
+  "price": 35000,
+  "productId": [
+    {
+      "$oid": "653938af1ebfe330733d7caa"
+    },
+    {
+      "$oid": "653939511ebfe330733d7ccc"
+    },
+    {
+      "$oid": "65393c58c9f403e70237c0ae"
+    },
+    {
+      "$oid": "65393eb0c9f403e70237c1b6"
+    },
+    {
+      "$oid": "65394400eb12d80a743cd105"
+    },
+    {
+      "$oid": "653944b5eb12d80a743cd126"
+    },
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    },
+    {
+      "$oid": "656c34033211f6b6515bbde7"
+    },
+    {
+      "$oid": "65393fb5c9f403e70237c2d4"
+    },
+    {
+      "$oid": "653e8a7b5288babc1caed3cb"
+    },
+    {
+      "$oid": "657d528ffde7defde3122328"
+    }
+  ],
+  "is_default": true,
+  "createdAt": {
+    "$date": "2023-10-25T15:43:37.178Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:38:54.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65393c58c9f403e70237c0ac"
+  },
+  "name": "M",
+  "price": 25000,
+  "productId": [
+    {
+      "$oid": "65393c58c9f403e70237c0ae"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:03:36.593Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-25T16:03:37.495Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65393fb5c9f403e70237c2d2"
+  },
+  "name": "M",
+  "price": 25000,
+  "productId": [
+    {
+      "$oid": "65393fb5c9f403e70237c2d4"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:17:57.353Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T17:12:41.752Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65394029c9f403e70237c329"
+  },
+  "name": "L",
+  "price": 20000,
+  "productId": [
+    {
+      "$oid": "6539402ac9f403e70237c32b"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:19:53.783Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T11:19:45.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "653942f6c9f403e70237c45a"
+  },
+  "name": "M",
+  "price": 34000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:31:50.842Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T07:06:21.100Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6539453beb12d80a743cd15e"
+  },
+  "name": "M",
+  "price": 35000,
+  "productId": [
+    {
+      "$oid": "6539453beb12d80a743cd162"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:41:31.245Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T11:09:38.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6539453beb12d80a743cd160"
+  },
+  "name": "L",
+  "price": 38000,
+  "productId": [
+    {
+      "$oid": "6539453beb12d80a743cd162"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-25T16:41:31.312Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T11:09:38.862Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "653fcab9752c6ea08ea07db7"
+  },
+  "name": "S ",
+  "price": 15000,
+  "productId": [
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-30T15:24:41.784Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T17:12:26.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "653fcab9752c6ea08ea07db9"
+  },
+  "name": "M",
+  "price": 20000,
+  "productId": [
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-30T15:24:41.831Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T17:12:26.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "653fcab9752c6ea08ea07dbb"
+  },
+  "name": "L ",
+  "price": 35000,
+  "productId": [
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-10-30T15:24:41.886Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-12T17:12:26.419Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6564ba4d4874447c98e7cbf3"
+  },
+  "name": "XXL",
+  "price": 7000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-11-27T15:48:29.140Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T11:41:29.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656ef2f1dc642a3ebeee10f4"
+  },
+  "name": "XS",
+  "price": 5000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-05T09:52:49.605Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T11:41:10.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656f47dd38c429bcfa57f4f6"
+  },
+  "name": "l",
+  "price": 10000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-05T15:55:09.821Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-05T15:55:09.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "656fd75c8c212b5b99ad7e78"
+  },
+  "name": "2L",
+  "price": 55556,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-06T02:07:24.320Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:16:40.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6571dd248f07589ca8768285"
+  },
+  "name": "XL",
+  "price": 45000,
+  "productId": [
+    {
+      "$oid": "6571dd258f07589ca8768287"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-07T14:56:36.592Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T14:59:03.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6571e4048f07589ca8768a58"
+  },
+  "name": "L",
+  "price": 43000,
+  "productId": [],
+  "is_default": true,
+  "createdAt": {
+    "$date": "2023-12-07T15:25:56.656Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:45:59.811Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65749396fbe39e52f446254b"
+  },
+  "name": "M",
+  "price": 23232,
+  "productId": [],
+  "is_default": true,
+  "createdAt": {
+    "$date": "2023-12-09T16:19:34.454Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:15:45.453Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657d5307fde7defde3122377"
+  },
+  "name": "XXL",
+  "price": 40000,
+  "productId": [
+    {
+      "$oid": "657d5307fde7defde3122379"
+    }
+  ],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-16T07:34:31.269Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-16T07:34:31.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657d5397fde7defde31223cb"
+  },
+  "name": "M",
+  "price": 20000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-16T07:36:55.792Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T15:15:17.175Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657d5397fde7defde31223cd"
+  },
+  "name": "L",
+  "price": 25000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-16T07:36:55.870Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T15:15:17.255Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657d5efbd439172d525a5459"
+  },
+  "name": "M",
+  "price": 15000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-16T08:25:31.387Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:38:54.690Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657d5fd2d439172d525a5629"
+  },
+  "name": "M",
+  "price": 20000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-16T08:29:06.403Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:10:55.921Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657f3dba5ac45ac358c4e866"
+  },
+  "name": "M",
+  "price": 32000,
+  "productId": [],
+  "is_default": true,
+  "createdAt": {
+    "$date": "2023-12-17T18:28:10.458Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:15:31.880Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657f3f045ac45ac358c4e8c2"
+  },
+  "name": "L",
+  "price": 30000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-17T18:33:40.508Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:17:14.545Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657f460ce8ca23703acf0595"
+  },
+  "name": "XL",
+  "price": 40000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-17T19:03:40.419Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:45:55.578Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "657f461fe8ca23703acf05e1"
+  },
+  "name": "2XL",
+  "price": 65000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-17T19:03:59.349Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:45:55.506Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d5044176eadbe1083db"
+  },
+  "name": "2XL",
+  "price": 65000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:11:44.217Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:11:44.217Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d5044176eadbe1083dd"
+  },
+  "name": "XL",
+  "price": 40000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:11:44.285Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:11:44.285Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d5044176eadbe1083df"
+  },
+  "name": "L",
+  "price": 30000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:11:44.351Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:11:44.351Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d5044176eadbe1083e1"
+  },
+  "name": "L",
+  "price": 35000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:11:44.418Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:11:44.418Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d5044176eadbe1083e3"
+  },
+  "name": "L",
+  "price": 35000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:11:44.494Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:15:17.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d6644176eadbe10845c"
+  },
+  "name": "2XL",
+  "price": 65000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:06.308Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:06.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d6644176eadbe10845e"
+  },
+  "name": "XL",
+  "price": 40000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:06.391Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:06.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d6644176eadbe108460"
+  },
+  "name": "L",
+  "price": 30000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:06.487Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:06.487Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d6644176eadbe108462"
+  },
+  "name": "L",
+  "price": 35000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:06.557Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:06.557Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d6644176eadbe108464"
+  },
+  "name": "M",
+  "price": 18000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:06.628Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:14:41.708Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084a2"
+  },
+  "name": "2XL",
+  "price": 65000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.602Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:38.602Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084a4"
+  },
+  "name": "L",
+  "price": 30000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.667Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:38.667Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084a6"
+  },
+  "name": "XL",
+  "price": 45000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.732Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:13:47.216Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084a8"
+  },
+  "name": "3XL",
+  "price": 50000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.796Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:14:07.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084aa"
+  },
+  "name": "L",
+  "price": 35000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.861Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:12:38.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807d8644176eadbe1084ac"
+  },
+  "name": "XL",
+  "price": 25000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:12:38.931Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T17:14:24.677Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65807f0444176eadbe1086bc"
+  },
+  "name": "M",
+  "price": 12000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-18T17:19:00.211Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:45:59.735Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6580ffd532ff8313d4ddb24d"
+  },
+  "name": "XXL",
+  "price": 12000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-19T02:28:37.181Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T08:36:08.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6580ffd532ff8313d4ddb24f"
+  },
+  "name": "L",
+  "price": 43000,
+  "productId": [],
+  "is_default": false,
+  "createdAt": {
+    "$date": "2023-12-19T02:28:37.248Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T02:28:37.248Z"
+  }
+}]

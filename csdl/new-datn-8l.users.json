@@ -1,0 +1,662 @@
+[{
+  "_id": {
+    "$oid": "655496d11fdced5be8835fa3"
+  },
+  "googleId": "100954374770473727147",
+  "username": "binhng ph 2 4 5 2 5",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJyZO8t-xHR6QdUpVF3CBTmcn5w6SRIcLpkFIrp0bsQ=s96-c",
+  "account": "binhngph24525@fpt.edu.vn",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-11-15T10:00:49.849Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-15T10:16:57.337Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTQ5NmQxMWZkY2VkNWJlODgzNWZhMyIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMDA0MzQxNywiZXhwIjoxNzAwMzAyNjE3fQ.2SYOkoyLTpePcZ8VVnsy--AW2-U57EVF8Jx1xLY48o4"
+},
+{
+  "_id": {
+    "$oid": "65587709b202fea437753cdd"
+  },
+  "username": "hung",
+  "avatar": "https://ui-avatars.com/api/?name=hung",
+  "account": "hung1@gmail.com",
+  "password": "$2b$10$H3oF00SsjLIt0SMiWYbrXOZPeImL/K69a7OKcjyYadWPcNDYIkynO",
+  "address": [],
+  "order": [],
+  "role": "admin",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-11-18T08:34:17.953Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-04T02:22:30.818Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTg3NzA5YjIwMmZlYTQzNzc1M2NkZCIsInVzZXJuYW1lIjoiaHVuZyIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTczMzI3ODk1MCwiZXhwIjoxNzMzNTM4MTUwfQ.JK_8Psqe9MYbPocz63aHvAt6Rwa1UyEyK1Td_1viATU"
+},
+{
+  "_id": {
+    "$oid": "655b760491bc41eb7c0a6eb9"
+  },
+  "googleId": "110187451797540641698",
+  "username": "Long",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJocvDAZkpx0p8r-JG_VNWf7FKcOu72k_MiLS8VIHev=s96-c",
+  "account": "hoanglonggg356@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-11-20T15:06:44.068Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T09:31:28.528Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NWI3NjA0OTFiYzQxZWI3YzBhNmViOSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjk3ODI4OCwiZXhwIjoxNzAzMjM3NDg4fQ.M3RauPbj-uPPJoFu7eoFHMN8O67oaVWmkdHLtIOuTVQ"
+},
+{
+  "_id": {
+    "$oid": "6562714c2b19413ebd9f024d"
+  },
+  "username": "Nhân Vid",
+  "avatar": "https://ui-avatars.com/api/?name=Quan Hu",
+  "account": "dangquanghuyk@gmail.com",
+  "password": "$2b$10$0p08H1uVw/tl889gP75BnO3Tjbl2qrZz3OGQwI0oRhtp60caJDe.e",
+  "address": [],
+  "order": [],
+  "role": "staff",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-11-25T22:12:28.145Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-14T09:36:06.490Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjI3MTRjMmIxOTQxM2ViZDlmMDI0ZCIsInVzZXJuYW1lIjoiTmjDom4gVmlkIiwicm9sZSI6InN0YWZmIiwiaWF0IjoxNzAyNTQ2NTY2LCJleHAiOjE3MDI4MDU3NjZ9.MHflGINsWCW0HPC3nb7F3dugsz7Cejz_Chmj6CWvGhA"
+},
+{
+  "_id": {
+    "$oid": "6571d8f28f07589ca87678e8"
+  },
+  "username": "đặng tiến hưng ahihihi",
+  "avatar": "https://ui-avatars.com/api/?name=đặng tiến hưng ahihihi",
+  "account": "tienhung@gmail.com",
+  "password": "$2b$10$uIWENVkN0SxM3jFAS0rhe.xUjKSXbhhEZ4e0yJYUtAQcvTXdXspvC",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T14:38:42.822Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T14:38:42.822Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6571d95f8f07589ca87678eb"
+  },
+  "username": "đặng tiến hưng đăng ký demo",
+  "avatar": "https://ui-avatars.com/api/?name=đặng tiến hưng đăng ký demo",
+  "account": "dev@gmail.com",
+  "password": "$2b$10$OkBAa1vB/jHGKY1MSGAhk.uWz.L51YhcG395dh1EOMh/hvHEn91Gm",
+  "address": [
+    {
+      "$oid": "6571db498f07589ca8767f06"
+    }
+  ],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T14:40:31.819Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T14:49:28.908Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzFkOTVmOGYwNzU4OWNhODc2NzhlYiIsInVzZXJuYW1lIjoixJHhurduZyB0aeG6v24gaMawbmcgxJHEg25nIGvDvSBkZW1vIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzAxOTYwNTY4LCJleHAiOjE3MDIyMTk3Njh9.AaPff61NA5WPTfzcswn6C3Y-hnudpPSZQtWOaKhHHAM"
+},
+{
+  "_id": {
+    "$oid": "6571db8056547def432fd399"
+  },
+  "username": "test",
+  "avatar": "https://ui-avatars.com/api/?name=test",
+  "account": "test@gmail.com",
+  "password": "$2b$10$1jf/FQGqkhQ.F0aIN0UvBuC34Q92txzjp89I83uXf56EClYIZHMAu",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T14:49:36.715Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T14:49:36.715Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6571dc6656547def432fd3a3"
+  },
+  "username": "long",
+  "avatar": "https://ui-avatars.com/api/?name=long",
+  "account": "long@gmail.com",
+  "password": "$2b$10$xSIdVIwiHsndbKZHDr4ZZOdA5N9lUDveeot8uhCFgw.42pEUCfx8.",
+  "address": [
+    {
+      "$oid": "658156bb7ee47c7cbdfb2e83"
+    },
+    {
+      "$oid": "658156dd7ee47c7cbdfb2e8a"
+    }
+  ],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T14:53:26.606Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T09:33:17.772Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzFkYzY2NTY1NDdkZWY0MzJmZDNhMyIsInVzZXJuYW1lIjoibG9uZyIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjk3ODM5NywiZXhwIjoxNzAzMjM3NTk3fQ.NWkFW4VA_VLRSW7YBczvMfUYIsIrSwVnBWBdTA2UYO8",
+  "phone": "0865257620"
+},
+{
+  "_id": {
+    "$oid": "6571dca756547def432fd3a6"
+  },
+  "googleId": "110489778387655805763",
+  "username": "Hoàng Đình Long",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKHL4vCwFVUCJrxSj1FSoAX7YOA5emTTgODCRYhD7RN=s96-c",
+  "account": "longhdph28352@fpt.edu.vn",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T14:54:31.954Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T14:54:33.579Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzFkY2E3NTY1NDdkZWY0MzJmZDNhNiIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMTk2MDg3MywiZXhwIjoxNzAyMjIwMDczfQ.sEQnf5Lsh-Wc2ALRcoQJyMg6j3_cU9lPpcCZU045zU4"
+},
+{
+  "_id": {
+    "$oid": "6571e0168f07589ca87686a6"
+  },
+  "username": "đặng thị khách hàng update",
+  "avatar": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1701961749/llnougejuktamhjor4a2.jpg",
+  "account": "khachhang@gmail.com",
+  "password": "$2b$10$SLNSAC.p9sDjDBkwph9bYuMgiLwKk6qpj3bvd3sw14mQJNii/EiEm",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "female",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T15:09:10.536Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T15:09:18.093Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6571e3cb18ad2218a2f11020"
+  },
+  "username": "long admin",
+  "avatar": "https://ui-avatars.com/api/?name=long",
+  "account": "admin@a.a",
+  "password": "$2b$10$V6qDcOUYLLdkqD4vkQrOJuFelqZ2nlvFiQ2SSzXPy95Y8soN4XLni",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-07T15:24:59.919Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-03T14:00:11.027Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzFlM2NiMThhZDIyMThhMmYxMTAyMCIsInVzZXJuYW1lIjoibG9uZyBhZG1pbiIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTczMzIzNDQxMSwiZXhwIjoxNzMzNDkzNjExfQ.bWn__MqFlN5tfphhFhA8eTbmSs4uVCy0mRXxGxUd8YU"
+},
+{
+  "_id": {
+    "$oid": "6579453ba2eec4a04df65aa9"
+  },
+  "username": "long",
+  "avatar": "https://ui-avatars.com/api/?name=long",
+  "account": "long22@gmail.com",
+  "password": "$2b$10$IUlcPfGeJ/pECLwSoJZjKOjyPBN68ELQNyulw6veMqL.aCiXt4NKK",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-13T05:46:35.249Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-18T15:11:35.194Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Nzk0NTNiYTJlZWM0YTA0ZGY2NWFhOSIsInVzZXJuYW1lIjoibG9uZyIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjkxMjI5NSwiZXhwIjoxNzAzMTcxNDk1fQ.y1dLuLPWnPql_OpUJkoaZrcRwx_VEiSme9XmcbgC3fg"
+},
+{
+  "_id": {
+    "$oid": "65796b3384d0919a7e75998f"
+  },
+  "username": "Huyy",
+  "avatar": "https://ui-avatars.com/api/?name=Huyy",
+  "account": "0975650977",
+  "password": "$2b$10$QjlWRlOpdGHf/9vyXqcTUeBA2CdnDNTRqgIEZyiSHoXf.SUr98JNW",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-13T08:28:35.572Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-13T08:28:35.572Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65796b9184d0919a7e759992"
+  },
+  "username": "Hwiii",
+  "avatar": "https://ui-avatars.com/api/?name=Hwiii",
+  "account": "dangquang@gmail.com",
+  "password": "$2b$10$x6IGLVg661/.4QgynUCujO61bNEXcvqRx.J9zMU8TkS0J6wWpe.12",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-13T08:30:09.550Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-13T08:30:22.506Z"
+  },
+  "passwordChangedAt": {
+    "$date": "2023-12-13T08:30:22.504Z"
+  },
+  "passwordResetExpires": {
+    "$date": "2023-12-13T08:40:22.504Z"
+  },
+  "passwordResetToken": "7fc35685d6e87c5b391099b825ef87609edccc79f4ddc1946141985c015a7d51"
+},
+{
+  "_id": {
+    "$oid": "6579f735ffa56adbd0c89698"
+  },
+  "googleId": "110587248021638767920",
+  "username": "huydqph 2 4 5 3 2",
+  "avatar": "https://res.cloudinary.com/ddx8kaolc/image/upload/v1702803119/vsn75xiykckmc4iwa3sj.jpg",
+  "account": "huydqph24532@fpt.edu.vn",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-13T18:25:57.372Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-17T08:52:00.368Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NzlmNzM1ZmZhNTZhZGJkMGM4OTY5OCIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjQ5MzA0NCwiZXhwIjoxNzAyNzUyMjQ0fQ.oHaTA4H3s-dGIHU3iYqlSFQAWy_Zjaxt26GZWTYFPSM"
+},
+{
+  "_id": {
+    "$oid": "657d2395acc94a8dbc790445"
+  },
+  "username": "Quang Huy",
+  "avatar": "https://ui-avatars.com/api/?name=Quang Huy",
+  "account": "admin@a.a",
+  "password": "$2b$10$faaPahT/qEesSmbw4FDYlu38hMc2MxSlCWt0QGDn9Rb7QalxTef4G",
+  "address": [
+    {
+      "$oid": "657d29c27d2292ce92086520"
+    }
+  ],
+  "order": [],
+  "role": "admin",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-16T04:12:05.109Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T07:36:28.033Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1N2QyMzk1YWNjOTRhOGRiYzc5MDQ0NSIsInVzZXJuYW1lIjoiUXVhbmcgSHV5Iiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzE5MDQxNzg4LCJleHAiOjE3MTkzMDA5ODh9.5aImV1MZKBlMnIj063TgK7J7nHgi08mIaWJvy7jID0Q"
+},
+{
+  "_id": {
+    "$oid": "6581109f615f7b5756c9a026"
+  },
+  "googleId": "117941832900722503242",
+  "username": "Nguyễn",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJsUH8xXfWKYGVfuKuHJ8MxnBguEK6WFaXy_iMDyQTTlIE=s96-c",
+  "account": "datnguyen01122003@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-19T03:40:15.292Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T03:40:16.649Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ODExMDlmNjE1ZjdiNTc1NmM5YTAyNiIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjk1NzIxNiwiZXhwIjoxNzAzMjE2NDE2fQ._eV8C2QiEZ9k6KHHSgJnNd6ZLEEPlbx3P6q0pTc0QsI"
+},
+{
+  "_id": {
+    "$oid": "658110e1615f7b5756c9a0a3"
+  },
+  "googleId": "101430131442917684307",
+  "username": "Hưng",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJgwUywMUeo7tuPeklUtnUBzR-37M6ztffiwG5GQZ7ioQ=s96-c",
+  "account": "tienhungdang24@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-19T03:41:21.742Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T03:49:23.196Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ODExMGUxNjE1ZjdiNTc1NmM5YTBhMyIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcwMjk1Nzc2MywiZXhwIjoxNzAzMjE2OTYzfQ.wj8WOZtcGEGwh4eYkcJj5ZoOuQGx_dPj04VZuGEkbAA"
+},
+{
+  "_id": {
+    "$oid": "658155d69400d0fa8e0c1607"
+  },
+  "username": "Nhân viên 2",
+  "avatar": "https://ui-avatars.com/api/?name=Nhân viên 2",
+  "account": "nhanvien2@gmail.com",
+  "password": "$2b$10$f/MQbUBY9BPOzO2Wzd3ZheKu/SafTIoQWJCQySRtItsfC6p33AQCO",
+  "address": [],
+  "order": [],
+  "role": "staff",
+  "grade": 0,
+  "gender": "female",
+  "status": "active",
+  "createdAt": {
+    "$date": "2023-12-19T08:35:34.149Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-19T08:35:34.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f860b14451e9b556425c48"
+  },
+  "username": "abc",
+  "avatar": "https://ui-avatars.com/api/?name=abc",
+  "account": "abc@gmail.com",
+  "password": "$2b$10$YnxYcEOnSMNrtoajimjxS.TCtcMHxMAY6PgZxU0cyTgUzvLUXZ8Ka",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-03-18T15:41:37.999Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-22T07:35:44.364Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Zjg2MGIxNDQ1MWU5YjU1NjQyNWM0OCIsInVzZXJuYW1lIjoiYWJjIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzE5MDQxNzQ0LCJleHAiOjE3MTkzMDA5NDR9.zyedBbiv04mXliEkK_XkwymaZ4e1HbftWGU3UTTSXlc"
+},
+{
+  "_id": {
+    "$oid": "665b444fe0161eae3d68512f"
+  },
+  "googleId": "111405496869929527128",
+  "username": "Đạt",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLaInH3PXgxuM0R5qTWJgLU2wMysdBnHEyGPE2OsKP0wAwDLw=s96-c",
+  "account": "nguyendat01122003@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-06-01T15:54:55.500Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-01T16:08:12.835Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NWI0NDRmZTAxNjFlYWUzZDY4NTEyZiIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTcxNzI1ODA5MiwiZXhwIjoxNzE3NTE3MjkyfQ.ovUseg6PZizpsnn5VeSUnFfjO0YLZrDwfvx-CQ-4r_M"
+},
+{
+  "_id": {
+    "$oid": "66ac888a81d7bf3164f56d66"
+  },
+  "username": "tungf",
+  "avatar": "https://ui-avatars.com/api/?name=tungf",
+  "account": "admin@admin.admin",
+  "password": "$2b$10$faaPahT/qEesSmbw4FDYlu38hMc2MxSlCWt0QGDn9Rb7QalxTef4G",
+  "address": [],
+  "order": [],
+  "posts": [
+    {
+      "$oid": "66ac8a1f81d7bf3164f5725b"
+    }
+  ],
+  "friends": [],
+  "role": "admin",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "point": 0,
+  "loyalCustomers": false,
+  "ytProduct": [
+    {
+      "$oid": "657f324897befed43e5dbea5"
+    },
+    {
+      "$oid": "653fcab9752c6ea08ea07dbd"
+    }
+  ],
+  "description": "",
+  "createdAt": {
+    "$date": "2024-08-02T07:19:38.541Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:26:42.306Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWM4ODhhODFkN2JmMzE2NGY1NmQ2NiIsInVzZXJuYW1lIjoidHVuZ2YiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MjI1ODM2MDIsImV4cCI6MTcyMjg0MjgwMn0.LcxsOTYMdSfNQmqkQ0__o5ao-XrPMjbghhTXXrW1aAk"
+},
+{
+  "_id": {
+    "$oid": "66ac8a2b81d7bf3164f5727b"
+  },
+  "username": "acb123",
+  "avatar": "https://ui-avatars.com/api/?name=acb123",
+  "account": "a",
+  "password": "$2b$10$mTFGHe5wwmFSZ/X55QibSeFyoW5AOfdtEawIuaFt8WbeRlTiCmzwe",
+  "address": [],
+  "order": [],
+  "posts": [],
+  "friends": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "point": 0,
+  "loyalCustomers": false,
+  "ytProduct": [],
+  "description": "",
+  "createdAt": {
+    "$date": "2024-08-02T07:26:35.680Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:26:35.680Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ac8a4781d7bf3164f572a2"
+  },
+  "username": "acb123",
+  "avatar": "https://ui-avatars.com/api/?name=acb123",
+  "account": "admin1@admin.admin",
+  "password": "$2b$10$fz15oFxnTNjkwrqCHRtmp.Uae.EhM5VwBs3s2Wg5rf2bV8X2beELK",
+  "address": [],
+  "order": [],
+  "posts": [],
+  "friends": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "point": 0,
+  "loyalCustomers": false,
+  "ytProduct": [],
+  "description": "",
+  "createdAt": {
+    "$date": "2024-08-02T07:27:03.052Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-02T07:27:08.815Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWM4YTQ3ODFkN2JmMzE2NGY1NzJhMiIsInVzZXJuYW1lIjoiYWNiMTIzIiwicm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzIyNTgzNjI4LCJleHAiOjE3MjI4NDI4Mjh9.bDBrMCL1ccd7sBQzUJIB1CRUYzfQamq3b1PoSL2G8XQ"
+},
+{
+  "_id": {
+    "$oid": "66b2cb47f08c63008a2de5e3"
+  },
+  "name": "lamptph 2 0 2 8 2 fplhn",
+  "email": "lamptph20282@fpt.edu.vn",
+  "is_active": true,
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJdICjtLyC0CnMO0jkIp4ZQPaAaklyInw_PcnrPSnMxej8PQHJS=s96-c",
+  "role": 2,
+  "phonenumber": "Chưa cập nhật",
+  "address": "Chưa cập nhật",
+  "googleId": "114752102253922923290",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66b2cb55f08c63008a2de5e6"
+  },
+  "name": "Lâm Tùng",
+  "email": "lampt@lifetex.vn",
+  "is_active": true,
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKdvxjoudGUl1WtrgEj1dJw5DBccGVrFuTBNcK0871iGRwyarA=s96-c",
+  "role": 2,
+  "phonenumber": "Chưa cập nhật",
+  "address": "Chưa cập nhật",
+  "googleId": "103855650510984846858",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67128286236a9675a673e48f"
+  },
+  "googleId": "107823086020237447409",
+  "username": "Lực",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJqMMPpi1zkDiD17Nx8hyKDnBXN0BZMuZhrEcuHXMFo-XELLOU=s96-c",
+  "account": "lucck131103@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-18T15:45:10.384Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-18T15:45:10.384Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "673d9bfec162f9e0ec347086"
+  },
+  "googleId": "117902496534371652800",
+  "username": "Quang Huy",
+  "avatar": "https://lh3.googleusercontent.com/a/ACg8ocLax_2_S8MvuwG5h-DuDEk8m2J8NhSiYHDSOaES3o9PubQjjoWV=s96-c",
+  "account": "dangquanghuykk@gmail.com",
+  "address": [],
+  "order": [],
+  "role": "customer",
+  "grade": 0,
+  "gender": "male",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-11-20T08:21:18.987Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T08:21:18.987Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6746e1b2ae2e82170ea0b412"
+  },
+  "username": "1113e1we",
+  "avatar": "https://ui-avatars.com/api/?name=1113e1we",
+  "email": "longgNeweee@gmail.com",
+  "password": "$2b$10$iZBxki5QbE4zNoEs7cyZd.temhIpMh1BYjJ0fAWpV7.28z86EhXIm",
+  "role": "employee",
+  "projects": [],
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-11-27T09:09:06.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-27T09:10:02.973Z"
+  },
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NDZlMWIyYWUyZTgyMTcwZWEwYjQxMiIsInVzZXJuYW1lIjoiMTExM2Uxd2UiLCJyb2xlIjoiZW1wbG95ZWUiLCJpYXQiOjE3MzI2OTg2MDIsImV4cCI6MTczMjk1NzgwMn0.KayB8SV9DBwzvyW2IReZg_YvkxJQWhsLMdZr3_3tHbM"
+}]
